@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1670110500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_is_on_the_codefios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-09T23:55:53.847Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1613052300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User should be able to loging succefully and add a new account",
+        "description": "",
+        "id": "codefios-other-add-new-account-validation;user-should-be-able-to-loging-succefully-and-add-a-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 290736000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.afterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3134347300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the \"demo@codefios.com\" in the \"username\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@codefios.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.DashboardLoginStepDefinition.user_enters_the_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3102191300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the \"abc123\" in the \"password\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.DashboardLoginStepDefinition.user_enters_the_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38182092500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"signin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"signin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14762500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "steps.DashboardLoginStepDefinition.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5080639200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on \"listAccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"listAccount\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3080330000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"addAccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addAccount\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3086973300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters \"farjana\" in the \"accountName\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"farjana\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountName\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3100098700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"Bank account\" in the \"description\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bank account\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2102507900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"50000\" in the \"initialBalance\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50000\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"initialBalance\"",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2111366900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters \"111004411\" in the \"accountNumber\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"111004411\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountNumber\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2088130200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"farhana\" in the \"contactPerson\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"farhana\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"contactPerson\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2068365200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on \"Save\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Save\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.AddNewAccountStepDefinition.user_clicks_on_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171135600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "steps.AddNewAccountStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddNewAccountvalidationScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Codefios Other Add New Account validation",
+    "description": "",
+    "id": "codefios-other-add-new-account-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/AddNewAccount.feature",
+    "tags": []
+  }
+]
